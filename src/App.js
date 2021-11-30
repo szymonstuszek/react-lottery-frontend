@@ -56,7 +56,7 @@ class App extends React.Component {
                 Lottery app
               </h2>
               <p> Contract managed by: {this.state.manager} </p>
-              <p> There are currently {this.state.players.length}  people participating in the lottery,
+              <p> There are currently {this.state.players.length} participants in the lottery,
                 competing to win { web3.utils.fromWei(this.state.balance, 'ether') } ether!
               </p>
                 <form onSubmit={this.onSubmit}>
